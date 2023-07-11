@@ -4,8 +4,9 @@ class CreatePantryItems < ActiveRecord::Migration[7.0]
       t.integer :ingredient_id
       t.integer :user_id
       t.decimal :amount, precision: 5, scale: 2
-
       t.timestamps
+      t.belongs_to :user
+      t.belongs_to :ingredient
     end
   end
 end

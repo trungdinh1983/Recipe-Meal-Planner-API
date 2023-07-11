@@ -5,8 +5,9 @@ class CreateUsers < ActiveRecord::Migration[7.0]
       t.string :email
       t.string :password_digest
       t.string :image_url
-
       t.timestamps
+      t.has_many :pantryitems
+      t.has_many :ingredients, through: :pantryitems
     end
   end
 end

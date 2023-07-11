@@ -3,8 +3,8 @@ class CreateIngredients < ActiveRecord::Migration[7.0]
     create_table :ingredients do |t|
       t.string :name
       t.string :image_url
-
       t.timestamps
+      t.has_many :pantryitems
     end
   end
 end
