@@ -22,8 +22,13 @@ class IngredientsController < ApplicationController
     @ingredient.update(
       name: params[:name] || @ingredient.name,
       image_url: params[:image_url] || @ingredient.image_url,
-
     )
     render :show
+  end
+
+  def destroy
+    @ingredient = Ingredient.find_by(id: params[:id])
+    @ingredient.destroy
+    render json: { message: "Ingredient destroyed successfully" }
   end
 end
