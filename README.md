@@ -1,5 +1,8 @@
 # README
 
+This is the backend portion of Recipe Meal planner app. Please see  <a href="[url](https://github.com/trungdinh1983/Recipe-Meal-Planner-React-FE)">Recipe-Meal-Planner-React-FE</a>
+
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
