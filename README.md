@@ -1,6 +1,6 @@
 # README
 
-This is the backend portion of Recipe Meal planner app. Please see  [Recipe-Meal-Planner-React-FE](https://github.com/trungdinh1983/Recipe-Meal-Planner-React-FE) for the frontend portion. Both are needed to test out functionality of app.
+This is the backend portion of Recipe Meal planner app. Please see  [Recipe-Meal-Planner-React-FE](https://github.com/trungdinh1983/Recipe-Meal-Planner-React-FE) for the frontend portion. Both are needed to test out functionality of app. ReadMe file will be similiar with some diff
 
 
 This README would normally document whatever steps are necessary to get the
